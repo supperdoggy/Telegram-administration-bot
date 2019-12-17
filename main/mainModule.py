@@ -108,7 +108,6 @@ def theMain():
         else:
             denyAcces(message, simon)
 
-    # Протестуй цю херню
     @simon.message_handler(commands=["removeadmin"])
     def removeAdmin(message):
         print("removeAdmin\n")

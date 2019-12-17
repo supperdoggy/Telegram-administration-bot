@@ -92,7 +92,6 @@ def theMain():
         else:
             denyAcces(message, simon)
 
-    # Ше залишилася команда яка забирає адміна
     @simon.message_handler(commands=['newadmin'])
     def admin(message):
         print('newAdmin \n')
